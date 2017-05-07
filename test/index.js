@@ -81,3 +81,6 @@ tape('should route traffic', function (t) {
     })
   }
 })
+tape.onFinish(function () {
+  process.exit(0)
+})
