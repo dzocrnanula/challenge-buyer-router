@@ -22,7 +22,8 @@
     "bluebird": "^3.5.0",
     "dotenv": "^4.0.0",
     "url": "^0.11.0",
-    "querystring": "^0.2.0"
+    "querystring": "^0.2.0",
+    "fakeredis": "^2.0.0"
   },
   "dependencies": {},
   "directories": {
