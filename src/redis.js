@@ -1,5 +1,3 @@
-let dotenv = require('dotenv')
-dotenv.config({ path: './.env' })
 var redis = process.env.NODE_ENV === 'test'
   ? require('fakeredis')
   : require('redis')
